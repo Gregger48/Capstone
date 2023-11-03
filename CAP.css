@@ -1,0 +1,88 @@
+* {
+  font-size: 100%;
+  margin: 0;
+  padding: 10px;
+  line-height: 3;
+}
+
+body {
+    background-color: GoldenRod;
+    color: blue;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+#city {
+  font-size: 50px;
+  background-color: Red;
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+div {
+  text-align: center;
+}
+
+.update {
+  text-align: left;
+  font-size: 25px;
+  color: lawngreen;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+#button {
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li a {
+  color: black;
+}
+/* Change the link color to Red on hover */
+li a:hover {
+  background-color: Red;
+}
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 50px; /* Some padding */
+}
